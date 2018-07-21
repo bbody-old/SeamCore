@@ -14,7 +14,7 @@ env:
 deploy:
   - provider: pages
     skip_cleanup: true
-    local_dir: ./build
+    local_dir: build
     github_token: $GITHUB_TOKEN
     target_branch: gh-pages
     fqdn: seamcore.bbody.io
