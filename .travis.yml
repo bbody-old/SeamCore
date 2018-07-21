@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+- '10'
+dist: trusty
+before_script:
+- npm install
+script:
+- npm build --production
+cache:
+  directories:
+  - node_modules
+env:
+- CXX=g++-4.8 CC=gcc-4.8
+deploy:
+  - provider: pages
+    skip_cleanup: true
+    local_dir: ./build
+    github_token: $GITHUB_TOKEN
+    target_branch: gh-pages
+    fqdn: seamcore.bbody.io
+    repo: bbody/SeamCore
+    on:
+      branch: master
