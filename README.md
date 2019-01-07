@@ -1,18 +1,18 @@
-# Seamcore readme
+# SeamCore
 
-Generated on 2018-07-21 using
-[generator-yeogurt@2.0.1](https://github.com/larsonjj/generator-yeogurt)
+![Screenshot of SeamCore](https://raw.githubusercontent.com/bbody/SeamCore/master/images/screenshot.png)
 
 ## Description
 
-This is an example readme file.
-Describe your site/app here.
+SeamCore is a tool to Correlate and Visualize Coal Deposits Automatically and visualize them in 3D. It was an entry to the [Unearthed Sydney 2015 Hackathon](https://unearthed.solutions/u/competitions/unearthed-sydney-2015) by the team Fracking Awesome which attained second place. Code is quite hacked together and rebuilt as a purely static site.
 
 ## Technologies used
 
 JavaScript
+- [ThreeJS](https://threejs.org/)
 - [Browserify](http://browserify.org/)
 - [Node](https://nodejs.org/)
+- [Uglify](https://github.com/mishoo/UglifyJS)
 
 Styles
 - [Sass](http://sass-lang.com/) via ([node-sass](https://github.com/sass/node-sass))
@@ -20,23 +20,12 @@ Styles
 Markup
 - [Nunjucks](https://mozilla.github.io/nunjucks/)
 
-Optimization
-- [Imagemin](https://github.com/imagemin/imagemin)
-- [Uglify](https://github.com/mishoo/UglifyJS)
-
-Server
-- [BrowserSync](http://www.browsersync.io/)
-
-Linting
-- [ESlint](http://eslint.org/)
-
 Automation
 - [Gulp](http://gulpjs.com)
+- [Travis](https://travis-ci.org/bbody/SeamCore)
 
 Code Management
-- [Editorconfig](http://editorconfig.org/)
 - [Git](https://git-scm.com/)
-
 
 ## Automated tasks
 
