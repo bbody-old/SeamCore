@@ -4,7 +4,7 @@
 
 ## Description
 
-SeamCore is a tool to Correlate and Visualize Coal Deposits Automatically and visualize them in 3D. It was an entry to the [Unearthed Sydney 2015 Hackathon](https://unearthed.solutions/u/competitions/unearthed-sydney-2015) by the team Fracking Awesome which attained second place. Code is quite hacked together and rebuilt as a purely static site.
+SeamCore is a tool to Correlate and Visualize Coal Deposits Automatically and visualize them in 3D. It was an entry to the [Unearthed Sydney 2015 Hackathon](https://unearthed.solutions/u/competitions/unearthed-sydney-2015) by the team Fracking Awesome which attained second place. Code is quite hacked together and rebuilt as a purely static site. [SeamCore Preview](https://seamcore.bbody.io/).
 
 ## Technologies used
 
