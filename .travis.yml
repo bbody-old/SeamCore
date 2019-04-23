@@ -18,6 +18,6 @@ deploy:
     github_token: $GITHUB_TOKEN
     target_branch: gh-pages
     fqdn: seamcore.bbody.io
-    repo: bbody/SeamCore
+    repo: bbody-old/SeamCore
     on:
       branch: master
